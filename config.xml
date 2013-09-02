@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+        <module>
+            <name>watermark</name>
+            <displayName><![CDATA[Marca de agua (filigrana)]]></displayName>
+            <version><![CDATA[0.7]]></version>
+            <description><![CDATA[Protect image by a PNG watermark.]]></description>
+            <author><![CDATA[MOD by Alberto Su&aacute;rez,from prestashop module]]></author>
+            <tab><![CDATA[administration]]></tab>
+	<confirmUninstall>Confirm unistall?</confirmUninstall>
+            <is_configurable>1</is_configurable>
+            <need_instance>1</need_instance>
+	<limited_countries></limited_countries>
+        </module>
