@@ -51,8 +51,8 @@ class Watermark extends Module
 	{
 		$this->name = 'watermark';
 		$this->tab = 'administration';
-		$this->version = '0.6';
-		$this->author = 'MOD by Alberto Suárez,from prestashop module';
+		$this->version = '0.7';
+		$this->author = 'MOD by Alberto Suárez and And, from prestashop module';
 
 		parent::__construct();
 
@@ -129,7 +129,7 @@ class Watermark extends Module
 
 		if (isset($_FILES['PS_WATERMARK']['tmp_name']) && !empty($_FILES['PS_WATERMARK']['tmp_name']))
 		{
-			if (!ImageManager::isRealImage($_FILES['PS_WATERMARK']['tmp_name'], $_FILES['PS_WATERMARK']['type'], array('image/png')))
+			if (!ImageManager::isRealImage($_FILES['PS_WATERMARK']['tmp_name']))
 				$this->_postErrors[] = $this->l('Image must be PNG format.');
 		}
 
